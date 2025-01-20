@@ -1,0 +1,22 @@
+my_tuple=(3,4.6,"krishiv")
+print(my_tuple)
+print(f"\n number of items = {len(my_tuple)}")
+
+#nested tuple
+n_tuple=("priya",[5,6,7],(1,2,3))
+print("\n",n_tuple)
+
+print(f"\n number of items = {len(n_tuple)}\n")
+print(n_tuple[0][2])#to retrieve i from priya
+
+#to get 6 from n_tuple
+print(n_tuple[1][1])
+
+#to get 1 from n_tuple
+print(n_tuple[2][0])
+
+new_tuple=("p","r","o","g","r","a","m","i","z")
+#tuple slicing
+print("\n")  
+print(f"tuple slicing= {new_tuple[1:4]}")
+print(f"tuple slicing= {new_tuple[2:8]}")
